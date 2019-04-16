@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Seattle's Best Coffee Landing Page" />
+
+  <!-- Google Font Import -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:500,600|Work+Sans:400" rel="stylesheet" />
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Seattle's Best Coffee</title>
+  <!--
+
+    ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+            SEATTLE'S BEST LANDING PAGE
+            CREATED BY: KEVIN VIZCONDE
+                For freeCodeCamp🔥
+    ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
+   -->
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <ul class="nav-link__container">
+        <li class="nav-list"><a href="#coffee" class="nav-link">Our Coffee</a></li>
+        <li class="nav-list"><a href="#story" class="nav-link">Our Story</a></li>
+        <li class="nav-list"><a href="#sub" class="nav-link">Subscribe</a></li>
+      </ul>
+    </nav>
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <img src="img/sb_logo.png" alt="Logo" id="header-img" />
+        <span class="heading-primary-main">Seattle's Best Coffee</span>
+        <span class="heading-primary-sub">Rain or Shine, We got you <span id="coverLine"> covered.</span></span>
+      </h1>
+    </div>
+    <div class="fullscreen-video">
+      <video id="video" poster="./video/poster.png" autoplay muted loop>
+        <source src="./video/rain.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </header>
+
+  <main class="content-container">
+    <div class="main-content">
+      <div class=" main__content-bg" id="coffee">
+        <h1 class="main__content-header">Our Favorites</h1>
+      </div>
+      <div class="main__content-flex">
+        <!-- START OF FLEX-CONTAINERS -->
+
+        <div class="flex-container">
+          <button class="learn-more">More</button>
+          <div class="flexbox henry">
+            <div class="infobox">
+              <span class="infobox-heading">Complex and robust.</span>
+              This blend of Latin American beans is complex and robust in flavor, with a
+              well-rounded finish. A strong, perk-you-up cup of coffee that, ironically, is named
+              after a sleepy cat that used to curl up next to our roaster, soaking up the warmth
+              and aromas.
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <button class="learn-more">More</button>
+          <div class="flexbox post">
+            <div class="infobox">
+              <span class="infobox-heading">Bold, rich, and robust.</span>
+              This is a smoky and intense French roast with a wonderfully smooth side. Best
+              enjoyed by pausing for a moment to allow the aromas to stir up your senses before
+              taking the first sip.
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <button class="learn-more">More</button>
+          <div class="flexbox sixthave">
+            <div class="infobox">
+              <span class="infobox-heading">Roasty and balanced.</span>
+              From the first sip, you know this one is special. A bold and roasty blend of premium
+              beans that brews up a perfectly balanced cup of coffee. Perfect for people who
+              appreciate something that’s smooth, strong, and a great start to your day.
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <button class="learn-more">More</button>
+          <div class="flexbox house">
+            <div class="infobox">
+              <span class="infobox-heading">Rich, smooth, and savory.</span>
+              Our signature blend crafted from Latin American beans is full-flavored, balanced,
+              and smooth-roasted to perfection. So pull up a chair and a mug and enjoy sipping on
+              what we are proud to call our House Blend.
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <button class="learn-more">More</button>
+          <div class="flexbox breakfast">
+            <div class="infobox">
+              <span class="infobox-heading">Bright, crisp, and vibrant.</span>
+              These beans will brew up a cup that’s vibrant and crisp, with smooth citrus notes
+              that give a hint of extra brightness to the morning, even when it’s not sunny.
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <button class="learn-more">More</button>
+          <div class="flexbox vanilla">
+            <div class="infobox">
+              <span class="infobox-heading">Smooth and sweet.</span>
+              Start with a beautifully balanced blend of premium coffee beans roasted to
+              perfection. With just the right amount of the subtly sweet taste of vanilla. The
+              result? A wonderful way to sweeten up the day. Enjoy.
+            </div>
+          </div>
+        </div>
+
+        <!-- END OF FLEX-CONTAINERS-->
+
+        <!-- START OF STORY -->
+      </div>
+      <div class=" main__content-bg" id="story">
+        <h1 class="main__content-header">Our Story</h1>
+      </div>
+
+      <div class="story-wrap">
+        <div class="story-bg">
+          <div class="story-row">
+            <img src="./img/story_start.png" alt="story start" class="story-img" />
+            <h2 class="story-heading">Where It All Began</h2>
+            <p class="story-text">
+              We started in the '70s as Stewart Brothers Coffee, brewing surprisingly smooth
+              coffee with just a 12-pound peanut roaster on Seattle's Pier 70.
+            </p>
+          </div>
+        </div>
+
+        <div class="story-bg ship">
+          <div class="story-row textLeft">
+            <img src="./img/story_ship.png" alt="story ship" class="story-img floatRight" />
+            <h2 class="story-heading">Bigger Shop on a Little Island</h2>
+            <p class="story-text">
+              We soon outgrew our little roaster and moved to beautiful Vashon Island, where we
+              continued to roast and blend delicious coffee for stores across Seattle.
+            </p>
+          </div>
+        </div>
+
+        <div class="story-bg seattle">
+          <div class="story-row">
+            <img src="./img/story_seattle.png" alt="story seattle" class="story-img" />
+            <h2 class="story-heading">Becoming the Best</h2>
+            <p class="story-text">
+              We entered a competition to name the “best cup of coffee in Seattle," and when our
+              notably smooth taste earned us the coffee crown, we changed our name to Seattle’s
+              Best Coffee.
+            </p>
+          </div>
+        </div>
+
+        <div class="story-bg cat">
+          <div class="story-row textLeft">
+            <img src="./img/story_cat.png" alt="story cat" class="story-img floatRight" />
+            <h2 class="story-heading">Henry and His Signature Blend</h2>
+            <p class="story-text">
+              Our inaugural signature blend was named for a cat named Henry who liked to warm up
+              next to the roasters. Henry's Blend® became the first of the excellent Seattle's
+              Best Coffee roasts and flavors that followed.
+            </p>
+          </div>
+        </div>
+
+        <div class="story-bg bag">
+          <div class="story-row">
+            <img src="./img/story_bag.png" alt="story bag" class="story-img" />
+            <h2 class="story-heading">So, Here We Are</h2>
+            <p class="story-text">
+              In the more than 45 years since, it's been a labor of love. We've perfected our
+              signature roasting process while living up to our name and staying true to our roots
+              in stores across the country.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- END OF STORY -->
+      <div class=" main__content-bg" id="sub">
+        <h1 class="main__content-header">Subscribe</h1>
+      </div>
+      <section class="contact-section">
+        <p class="contact-text">
+          Sign up to receive our email newsletter, exclusive online offers and deals!
+          <span class="emoji">💌️</span>
+        </p>
+        <form action="https://www.freecodecamp.org/email-submit" method="GET" id="form">
+          <input type="email" name="email" id="email" placeholder="YOUR E-MAIL" required />
+          <input type="submit" id="submit" />
+        </form>
+      </section>
+    </div>
+  </main>
+  <div class="footer-gap"></div>
+  <footer id="footer">
+    <a href="https://seattlesbest.com/" target="_blank">
+      <img src="./img/footer_logo.png" alt="" class="footer-img" />
+    </a>
+    <p class="footer-text">
+      Made with ♥ by Kevin Vizconde <span class="fcc">@ freeCodeCamp</span>
+    </p>
+  </footer>
+
+  <!-- freeCodeCamp Script -->
+  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+
+</html>
