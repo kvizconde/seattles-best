@@ -1,4 +1,4 @@
-# seattles-best
+# Seattle's Best
 Seattle's Best Landing Page for @freeCodeCamp
 
 # ☕️
